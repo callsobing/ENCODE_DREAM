@@ -1,0 +1,5 @@
+library(DNAshapeR)
+fn <- system.file("extdata", "../../data/processed/train_regions.blacklistfiltered.fa", package = "DNAshapeR")
+pred <- getShape("../data/processed/train_regions.blacklistfiltered.fa",parse=FALSE)
+fn <- system.file("extdata", "../../data/processed/test_regions.blacklistfiltered.fa", package = "DNAshapeR")
+pred <- getShape("../data/processed/test_regions.blacklistfiltered.fa",parse=FALSE)
